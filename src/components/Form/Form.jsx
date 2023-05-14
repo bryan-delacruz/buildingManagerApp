@@ -2,7 +2,7 @@ import React from "react";
 
 export const Form = () => {
   return (
-    <form className="bg-white/75 text-slate-700 mx-auto w-[450px] px-6 backdrop-blur-0 backdrop-saturate-[180%] rounded-xl border border-solid border-[rgba(209, 213, 219, 0.3))">
+    <form className="bg-white/75 text-slate-700 mx-auto w-[350px] px-6 backdrop-blur-0 backdrop-saturate-[180%] rounded-xl border border-solid border-[rgba(209, 213, 219, 0.3))">
       <h1 className="text-black font-bold text-xl mb-4 mt-8">
         APP DE ADMINISRTACIÓN DE EDIFICIOS
         <br />
@@ -71,12 +71,12 @@ export const Form = () => {
         </div>
       </div>
 
-      <div className="flex justify-between mb-4">
+      <div className="flex items-center justify-between mb-4">
         <div className="flex gap-2">
           <input className="accent-sky-600 w-4" type="checkbox" />
           <label>Recuérdame</label>
         </div>
-        <a className="text-sky-500 font-semibold hover:text-sky-700" href="">
+        <a className="text-sm text-sky-500 font-semibold hover:text-sky-700" href="">
           ¿Olvidaste la contraseña?
         </a>
       </div>
